@@ -1,0 +1,24 @@
+{
+  "name": "chatapphwm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "build": "npm install && npm install --prefix chatappfrontend && npm run build --prefix chatappfrontend"
+  },
+  "author": "KH",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1",
+    "react-router-dom": "^6.19.0"
+  }
+}
